@@ -18,6 +18,7 @@ class CaesarCipher {
     }
     //If the user prompts the program to encrypt then this method will be invoked.
     public String encrypt(String message) {
+        //Placeholder for the encrypted message from the for loop.
         String encrypted = "";
         for (int i = 0; i < message.length(); i++) {
             char c = message.charAt(i);
@@ -37,6 +38,7 @@ class CaesarCipher {
     }
     //If the user prompts the program to decrypt then this method will be invoked.
     public String decrypt(String message) {
+        //Placeholder for the decrypted message from the for loop.
         String decrypted = "";
         for (int i = 0; i < message.length(); i++) {
             char c = message.charAt(i);
